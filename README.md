@@ -36,23 +36,26 @@ Git
 
 git clone https://github.com/shank2204/Slate-.git
 
-2)cd slate-dashboard
+2)cd slate--main
 
 3) Install Dependencies:
 npm install  # or yarn install
 
-4)Start the Development Server:
-npm start  # or yarn start
 
-5)Run the project:
+
+4)Run the project:
 npm run dev
 6)Lauch your local host!!!
 
  (or)
-
+EASIER MAETHOD 
 download zipfile from github
 
+extrct all files
+
 open in vscode or any development environment
+
+cd slate--main
 
 install: npm install
 
