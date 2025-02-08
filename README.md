@@ -33,15 +33,30 @@ Git
 
 **3)Installation & Setup**:
 1)Clone the Repository:
+
 git clone https://github.com/shank2204/Slate-.git
+
 2)cd slate-dashboard
+
 3) Install Dependencies:
 npm install  # or yarn install
+
 4)Start the Development Server:
 npm start  # or yarn start
+
 5)Run the project:
 npm run dev
 6)Lauch your local host!!!
+
+ (or)
+
+download zipfile from github
+
+open in vscode or any development environment
+
+install: npm install
+
+Run the project:npm run dev
 
 
  **4)UI/UX Design:**
