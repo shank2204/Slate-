@@ -1,7 +1,7 @@
 # Slate
 The Slate  is a responsive and role-based web application built using React. It provides personalized digital experiences for Parents, Schools, and Students, helping them track progress, manage achievements, and ensure a safe learning environment.
 
-**Features:**
+**1)Features:**
 
 Role-Based Dashboards: Separate views for Admin, School, Parent, and Student.
 
@@ -11,7 +11,7 @@ Student Achievements & Progress Tracking: Displays performance and learning stat
 
 Responsive Design: Optimized for different screen sizes.
 
-**Prerequisites**
+**2)Prerequisites**
 
 Ensure you have the following installed:
 
@@ -21,7 +21,7 @@ npm or yarn
 
 Git
 
-**Installation & Setup**:
+**3)Installation & Setup**:
 1)Clone the Repository:
 git clone https://github.com/shank2204/Slate-.git
 2)cd slate-dashboard
@@ -34,9 +34,22 @@ npm run dev
 6)Lauch your local host!!!
 
 
- **UI/UX Design:**
+ **4)UI/UX Design:**
 Provided in the repository
 (I used it as a way to visualize my idea, so its not professional.)
+
+5)Inputs:
+Login page:
+    { username: "admin", password: "admin123", roles: ["Admin"] },
+    { username: "school", password: "school123", roles: ["School"] },
+    { username: "parent", password: "parent123", roles: ["Parent"] },
+    { username: "student", password: "student123", roles: ["Student"] },
+    { username: "multiuser", password: "multi123", roles: ["Parent1", "Student1"] }
+
+Search inputs in Parent dashboard:
+John Doe:
+Math,Science,attendence
+
 
 For queries, reach out via ashankari2004@gmail.com
 
