@@ -1,0 +1,169 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.colour-32AA27 {
+  background-color: rgb(50, 170, 39);
+}
+/* App.css or other CSS file */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%); /* Start off the screen from left */
+  }
+  50% {
+    transform: translateX(0); /* In the middle, it's at its normal position */
+  }
+  
+}
+/* Keyframes for the logo (moving left to right) */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%); /* Start off the screen from the left */
+  }
+  50% {
+    transform: translateX(0); /* At the middle, it's at its normal position */
+  }
+}
+
+/* Keyframes for the "Slate" text (moving right to left) */
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%); /* Start off the screen from the right */
+  }
+  50% {
+    transform: translateX(0); /* At the middle, it's at its normal position */
+  }
+}
+
+/* Apply the moveLeftToRight animation to the logo */
+.animate-move-logo {
+  animation: moveLeftToRight 3s ease-in-out 1; /* 3s duration, infinite loop */
+}
+
+/* Apply the moveRightToLeft animation to the "Slate" text */
+.animate-move-slate {
+  animation: moveRightToLeft 3s ease-in-out 1; /* 3s duration, infinite loop */
+}
+
+/* Sidebar styles */
+/* Sidebar styles */
+.sidebar {
+  width: 250px; /* Set the width of the sidebar */
+  left: -50px; /* Initially hide sidebar off-screen */
+  top: 0;
+  bottom: 0;
+  transition: transform 10s ease-in-out; /* Smooth transition for sliding */
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 20; /* Ensure it's above other elements */
+  transition: transform 10s ease-in-out;
+}
+
+/* Optional: Style for sidebar links */
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+/* Ensure the button is above everything else */
+.sidebar-toggle {
+  position: fixed;
+  z-index: 30;
+}
+
+.performance-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chart-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px; /* Optional: max-width to keep it contained */
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    width: 100%;
+  }
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Adjustments for the carousel images and overlay text */
+.animate-scroll {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel img {
+  min-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel .relative {
+  flex: 0 0 33.33%; /* Adjust the flex basis to control the size */
+}
