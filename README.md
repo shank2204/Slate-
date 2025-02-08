@@ -40,14 +40,15 @@ npm run dev
 
  (or)
  
-EASIER MAETHOD 
+EASIER METHOD 
+
 download zipfile from github
 
 extrct all files
 
 open in vscode or any development environment
 
-cd slate--main
+cd Slate--main
 
 install: npm install
 
