@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # Slate
 The Slate  is a responsive and role-based web application built using React. It provides personalized digital experiences for Parents, Schools, and Students, helping them track progress, manage achievements, and ensure a safe learning environment.
 
@@ -48,6 +39,7 @@ npm run dev
 6)Lauch your local host!!!
 
  (or)
+ 
 EASIER MAETHOD 
 download zipfile from github
 
@@ -60,6 +52,8 @@ cd slate--main
 install: npm install
 
 Run the project:npm run dev
+
+**PLEASE DONT FORGET THIS STEP npm install**
 
 
  **4)UI/UX Design:**
